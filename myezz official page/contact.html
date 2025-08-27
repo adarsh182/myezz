@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact MyEzz - Food Delivery Service</title>
+    <meta name="description" content="Contact MyEzz for food delivery in Vidyavihar, Ghatkopar & Tilak Nagar. Order via WhatsApp: +91 80970 21356">
+    
+    <!-- Favicon from favicon_io folder -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+    <meta name="theme-color" content="#ff6600">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation with Logo -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="MyEzz" />
+        </a>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="culture.html">Culture</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="nav-actions">
+            <a href="https://myezz.vercel.app/" class="btn-whatsapp">Order Now</a>
+            <button class="mobile-menu-button" aria-label="Toggle mobile menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p class="intro-text">Ready to satisfy your cravings? Contact us through WhatsApp for the fastest response or use the form below.</p>
+
+        <div class="contact-grid">
+            <div class="contact-card card">
+                <h3>📞 For fastest response and ordering, WhatsApp us directly!</h3>
+                <a href="https://wa.me/918097021356" class="contact-link">+91 80970 21356</a>
+                
+                <h3>✉️ For general inquiries, partnerships, or feedback</h3>
+                <a href="mailto:myeasycheckout@gmail.com" class="contact-link">myeasycheckout@gmail.com</a>
+                
+                <p>We respond to emails within 24 hours. For urgent matters, please use WhatsApp.</p>
+                <p>Daily service | Pre-orders welcome for specific time slots</p>
+                
+                <p><strong>Vidyavihar, Ghatkopar & Tilak Nagar</strong></p>
+                <p>Our delivery coverage areas for 10-minute delivery promise</p>
+                
+                <ul class="feature-list">
+                    <li>Simply WhatsApp us at +91 80970 21356 with your order details and delivery address in Vidyavihar, Ghatkopar & Tilak Nagar.</li>
+                    <li>We promise 10-minute delivery, though times may vary slightly due to traffic, weather, or high demand.</li>
+                    <li>Currently, we serve <strong>Vidyavihar, Ghatkopar & Tilak Nagar</strong> to maintain our 10-minute delivery promise.</li>
+                    <li>Our full menu is available on request. WhatsApp us and we'll send you our latest offerings.</li>
+                </ul>
+            </div>
+
+            <div class="contact-form card">
+                <h3>Send us a message</h3>
+                <form action="https://formspree.io/f/xjkonlbk" method="POST" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone *</label>
+                    <div class="phone-input-wrapper">
+                        <span class="country-prefix" id="countryPrefix">+91</span>
+                        <input type="tel" id="phone" name="phone" required maxlength="10" pattern="\d{10}" title="Please enter exactly 10 digits" placeholder="1234567890">
+                    </div>
+                   </div>
+
+
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    
+                    <!-- Hidden field for better organization -->
+                    <input type="hidden" name="_subject" value="New Contact Form Submission from MyEzz Website">
+                    
+                    <button type="submit" class="btn-submit">Send Message</button>
+                </form>
+                
+                <div class="form-note">
+                    <p>For immediate assistance, <a href="https://wa.me/918097021356">WhatsApp us </a>at +91&nbsp;80970&nbsp;21356</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer with Business Email -->
+    <footer>
+        &copy; 2025 MyEzz Food Delivery. All rights reserved. | Coverage: Vidyavihar, Ghatkopar & Tilak Nagar.
+        <br>
+        WhatsApp: <a href="https://wa.me/918097021356">+91&nbsp;80970&nbsp;21356</a> | Email: <a href="mailto:myeasycheckout@gmail.com" class="no-break">myeasycheckout@gmail.com</a>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
